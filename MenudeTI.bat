@@ -73,8 +73,6 @@ echo [ERROR] Opcion no valida, por favor intente de nuevo.
 pause
 goto menu
 
-
-
 :menu1
 cls
 echo =======================================================
@@ -159,8 +157,6 @@ if "%opcion%"=="3" goto Menu1
 if "%opcion%"=="4" goto salir
 
 
-
-
 :run_speedtest
 cls
 echo ====================================================
@@ -177,29 +173,6 @@ echo ====================================================
 echo Presiona cualquier tecla para volver al menu...
 pause > nul
 goto menu
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 :ping_opc
 cls
